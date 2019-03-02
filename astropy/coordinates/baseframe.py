@@ -783,7 +783,7 @@ class BaseCoordinateFrame(ShapedLikeNDArray, metaclass=FrameMeta):
         # This exists as a class method only to support handling frame inputs
         # without units, which are deprecated and will be removed.  This can be
         # moved into the representation_info property at that time.
-        # note that if so moved, the cache should be acceessed as
+        # note that if so moved, the cache should be accessed as
         # self.__class__._frame_class_cache
 
         if cls._frame_class_cache.get('last_reprdiff_hash', None) != r.get_reprdiff_cls_hash():
@@ -1252,7 +1252,7 @@ class BaseCoordinateFrame(ShapedLikeNDArray, metaclass=FrameMeta):
     def _frameattr_equiv(left_fattr, right_fattr):
         """
         Determine if two frame attributes are equivalent.  Implemented as a
-        staticmethod mainly as a convenient location, althought conceivable it
+        staticmethod mainly as a convenient location, although conceivable it
         might be desirable for subclasses to override this behavior.
 
         Primary purpose is to check for equality of representations, since by

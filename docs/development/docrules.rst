@@ -241,7 +241,7 @@ The sections of the docstring are:
      InvalidWCSException
          If the WCS information is invalid.
 
-   This section should be used judiciously, i.e only for errors that are
+   This section should be used judiciously, i.e. only for errors that are
    non-obvious or have a large chance of getting raised.
 
 8. **See Also**
@@ -488,7 +488,7 @@ Use the same sections as outlined for functions where applicable::
 
 Docstrings for constants will not be visible in text terminals
 (constants are of immutable type, so docstrings can not be assigned
-to them like for for class instances), but will appear in the
+to them like for class instances), but will appear in the
 documentation built with Sphinx.
 
 Documenting modules

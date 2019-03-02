@@ -485,7 +485,7 @@ directly.  But as soon as a class is used in a multiple-inheritance
 hierarchy it must use ``super()`` in order to cooperate with other classes in
 the hierarchy.
 
-.. note:: For more information on the the benefits of :func:`super`, see
+.. note:: For more information on the benefits of :func:`super`, see
           https://rhettinger.wordpress.com/2011/05/26/super-considered-super/
 
 .. _import-star-example:

@@ -124,7 +124,7 @@ class EarthLocationInfo(QuantityInfoBase):
             Empty instance of this class consistent with ``cols``
         """
         # Very similar to QuantityInfo.new_like, but the creation of the
-        # map is different enough that this needs its own rouinte.
+        # map is different enough that this needs its own routine.
         # Get merged info attributes shape, dtype, format, description.
         attrs = self.merge_cols_attributes(cols, metadata_conflicts, name,
                                            ('meta', 'format', 'description'))

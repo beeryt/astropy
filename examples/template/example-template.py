@@ -46,7 +46,7 @@ plt.style.use(astropy_mpl_style)
 # comment hashes. That means to break a paragraph you still need to commend
 # that line break.
 #
-# In this example the next block of code produces some plotable data. Code is
+# In this example the next block of code produces some plottable data. Code is
 # executed, figure is saved and then code is presented next, followed by the
 # inlined figure.
 

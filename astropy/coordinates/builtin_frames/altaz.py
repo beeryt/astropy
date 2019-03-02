@@ -107,7 +107,7 @@ class AltAz(BaseCoordinateFrame):
     @property
     def secz(self):
         """
-        Secant if the zenith angle for this coordinate, a common estimate of the
+        Secant of the zenith angle for this coordinate, a common estimate of the
         airmass.
         """
         return 1/np.sin(self.alt)

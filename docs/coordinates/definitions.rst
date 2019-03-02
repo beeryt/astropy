@@ -29,13 +29,13 @@ the IAU2000 resolutions on celestial coordinate systems):
   are represented as "differential" classes).
 
 * A "Reference System" is a scheme for orienting points in a space and
-  describing how they transforms to other systems.Examples include the ICRS,
+  describing how they transforms to other systems. Examples include the ICRS,
   equatorial coordinates with mean equinox, or the WGS84 geoid for
   latitude/longitude on the Earth.
 
 * A "Coordinate Frame", "Reference Frame", or just "Frame" is a specific
   realization of a reference system - e.g., the ICRF, or J2000 equatorial
-  coordinates.For some systems, there may be only one meaningful frame, while
+  coordinates. For some systems, there may be only one meaningful frame, while
   others may have many different frames (differentiated by something like a
   different equinox, or a different set of reference points).
 

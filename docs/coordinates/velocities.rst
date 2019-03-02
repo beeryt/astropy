@@ -314,7 +314,7 @@ the same: the radial velocity should be essentially the same in both frames:
 
 but this result is clearly nonsense, with values from -1000 to 1000 km/s.  The
 root of the problem here is that the machine precision is not sufficient to
-computedifferences of order km over distances of order kiloparsecs.  Hence, the
+compute differences of order km over distances of order kiloparsecs.  Hence, the
 straightforward finite difference method will not work for this use case with
 the default values.
 

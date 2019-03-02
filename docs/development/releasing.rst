@@ -395,7 +395,7 @@ release and may also refactor internal APIs or include omissions from previous
 releases--that is, features that were documented to exist but were accidentally
 left out of the previous release. They may also include changes to docstrings
 that enhance clarity but do not describe new features (e.g., more examples,
-typo fixes, etc).
+typo fixes, etc.).
 
 Bug fix releases are typically managed by maintaining one or more bug fix
 branches separate from the master branch (the release procedure below discusses
